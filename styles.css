@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: serif;
+    background: linear-gradient(rgb(9, 65, 9), rgb(28, 148, 44));
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    margin: auto;
+}
+nav {
+    text-align: center;
+}
+
+.simbolotelefono {
+    height: 20px;
+}
+.logo a{
+    background-image: url(immagini/photo-1549740425-5e9ed4d8cd34.jpg);
+    background-color: blue;
+    display: inline-block;
+    text-indent: -999999px;
+    background-size: cover;
+    margin: 0;
+    height: 60px;
+    width: 280px;
+}
+
+.bloccocentrale {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(177, 26, 26);
+    height:60%;
+    width: 90%;
+}
+.blocco_telefono {
+    background-color: rgb(121, 121, 209);
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigazione {
+    display: inline-table;
+    height: 50px;
+    margin: 16px;
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.329);
+}
+.immagine_centrale {
+    background-image: url(immagini/124578.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blocco_frase_filosofica {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frase_filosofica {
+    width: 40%;
+    height: 40%;
+    font-size: 140%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banda_treimmagini {
+    height: 300px;
+    background: blue;
+    display: flex;
+    align-items: center;
+
+}
+.blocco_treimmagini {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    height: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.treimmagini {
+    width: 99%;
+    margin: 1%;
+}
+.span_treimmagini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descrizione_treimmagini {
+    background-color: rgb(2, 79, 245);
+    font-size: 150%;
+    color: white;
+    width: 99%;
+    text-align: center;
+}
+footer {
+    background-color: rgb(57, 31, 129);
+    height: 300px;
+}
