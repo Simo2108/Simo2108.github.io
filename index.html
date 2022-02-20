@@ -7,67 +7,66 @@
     <title>Bremo Limito</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+  
 <body>
 
-
-    
-    <header>
-    <div>
-        <h1>Bremo Limito</h1>
-        <h4>History of the italian Grand Prix <br> 
-            1921-1949</h4>
-    </div>
-
-    <div class="nav">
-      <a href="#1920s">1920s</a><div></div>
-      <a href="#1930s">1930s</a><div></div>
-      <a href="#1940s">1940s</a><div></div>
-    </div>
-    </header>
   
 
+    <header>
+    <div>
+        <h1 class="title">Bremo Limito</h1>
+        <h4 class="subtitle">History of the italian Grand Prix <br> 
+            1921-1949</h4>
+
+          <script document.write>"ciao"</script>
+
+    </div>
+    </header>
+    <p id="gp1921.year"> </p>
     <div class="timeline">
 
-      <div class="presentation mini" id="1920s">The Italian grand prix became part of the Grand Prix season in 1921
-
-
+      <div class="presentation1 mini" id="1920s">The Italian grand prix became part of the Grand Prix season in 1921
       </div>
 
+      <a href="1921.html" >
         <div class="container left">
           <div class="content">
-            <a href="1921.html"><span class="divlink"></span></a>
             <div class="yearandname">
-              <h2>1921</h2>
+              <h2 class="year">1921</h2>
               <p><b>Montichiari Circuit</b> </p>
             </div>
-            <div class="lap">
-          <div>17.3 km per lap</div>
-          <div>30 Laps</div>
-          <div >519 km total</div>
-        </div>
+            <div class="podium">
+              <div class="primo posizione"><b> <img class= flag src="img/flags/1x1/fr.svg" alt=""> Goux</b></div>
+              <div class="secondo posizione"><b> <img class= flag src="img/flags/1x1/fr.svg" alt=""> Chassagne</b></div>
+              <div class="terzo posizione"><b> <img class= flag src="img/flags/1x1/fr.svg" alt=""> Wagner</b></div>
+            </div>
             <div>
-              <img class=brescia src="img\Brescia.png" alt="">
+              <img class="brescia circuit" src="img\Brescia.png" alt="">
             </div>
           </div>
+        </a>
+          
         </div>
 
-        <div class="container right">
+        <a href="1922.html">
+          <div class="container right">
           <div class="content">
             <a href="1922.html"><span class="divlink"></span></a>
             <div class="yearandname">
-              <h2>1922</h2>
-              <p><b>Autodromo di Monza</b> </p>
+              <h2 class="year"><a href="1922.html">1922</a></h2>
+              <p><b>Monza Circuit</b> </p>
             </div>
-            <div class="lap">
-              <div>10 km per lap</div>
-              <div>80 Laps</div>
-              <div >800 km total</div>
+            <div class="podium"> 
+              <div class="primo posizione"><b> <img class= flag src="img/flags/1x1/it.svg" alt=""> Bordino</b></div>
+              <div class="secondo posizione"><b> <img class= flag src="img/flags/1x1/it.svg" alt=""> Nazzaro</b></div>
+              <div class="terzo posizione"><b> <img class= flag src="img/flags/1x1/es.svg" alt=""> De Vizcaya</b></div>
             </div>
             <div>
-              <img class="monza1" src="img\Monza 1.png" alt="">
+              <img class="monza1 circuit" src="img\Monza 1.png" alt="">
             </div>
           </div>
         </div>
+      </a>
 
         <div class="container left">
           <div class="content">
@@ -176,7 +175,7 @@
           </div>
         </div>
 
-        <div class="interruzione1 mini" id="1930s">As a result of the fatal accident of 1928, the 1929 and 1930 Grand Prix were not held
+        <div class="presentation2 mini" id="1930s">As a result of the fatal accident of 1928, the 1929 and 1930 Grand Prix were not held
         </div>
 
         <div class="container left">
@@ -232,11 +231,15 @@
             </div>
           </div>
         </div>
-        
+        <script src="index.js"></script>
+
 </body>
 
-<script src="java.js"></script>
-<script>
-  document.write(5 + 6);
-  </script>
+<div class="nav">
+  <a href="#1920s"><div class="navdecade">1920s</div></a>
+  <a href="#1930s"><div class="navdecade">1930s</div></a>
+  <a href="#1940s"><div class="navdecade">1940s</div></a>
+
+</div>
+
 </html>

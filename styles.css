@@ -4,7 +4,6 @@
 
 body{
     margin: 0%;
-
 }
 
 header {
@@ -13,13 +12,37 @@ header {
     border-color: rgb(255, 255, 255);
     background: linear-gradient(to right, rgb(30, 134, 9) 33%, white 33%, white 66%, rgb(255, 6, 6) 66%);
 }
-h1 {
+
+.title {
     font-size: 400%;
-    margin: 0%;    
-    
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h4 {
+.subtitle {
     font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.presentation1 {
+  background-color: rgb(136, 103, 13);
+  text-align: center;
+  color: aliceblue;
+  font-size: 200%;
+  margin: 0.5cm;
+  padding: 1cm;
+}
+
+.presentation2 {
+  background-color: rgb(29, 26, 22);
+  text-align: center;
+  color: aliceblue;
+  font-size: 200%;
+  margin: 0.5cm;
+  padding: 1cm;
+}
+
+.flag {
+  height: 2vh;
 }
 
 a {
@@ -27,12 +50,29 @@ a {
     color: black;
 }
 
-.divlink {
-  position:absolute; 
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
+.nav {
+  color: rgb(16, 24, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  font-size: 150%;
+  background-color: #ffffff;
+  position: sticky;
+  bottom: 0;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  border-top-color: rgb(49, 219, 49);
+  border-bottom-color: red;
+}
+
+
+.navdecade {
+  margin: 0 10vw;
+}
+
+.navdecade:hover {
+  color: beige;
 }
 
 .brescia {
@@ -40,22 +80,39 @@ a {
   }
 
 .monza1 {
- height: 8vw;
+ height: 6vw;
  margin-top: 2vw;
+ 
 }
 
 .monza1stretta {
   height: 6vw;
   margin-top: 2vw;
+  
  }
 
 .podium {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
 }
-.posizione {
+
+.first {
+  background-color: gold;
+}
+
+.second {
+  background-color: silver;
+
+}
+
+.thirt {
+  background-color: rgba(201, 98, 25, 0.685);
+
+}
+
+
+.position {
   border-radius: 3vw;
   text-align: center;
   font-size: 1vw;
@@ -63,40 +120,22 @@ a {
 }
 
 .yearandname {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   font-size: 1.5vw;
   float: left;
 }
 
-.primo {
-  background-color: gold;
+.year {
+  
+  background-color: beige;
+  font-size: 3vw;
+  border-radius: 50%;
 }
 
-.secondo {
-  background-color: silver;
-
-}
-
-.terzo {
-  background-color: rgba(201, 98, 25, 0.685);
-
-}
-
-.interruzione1 {
-  background-color: rgb(29, 26, 22);
-  text-align: center;
-  color: aliceblue;
-  font-size: 200%;
-  margin: 0.5cm;
-  padding: 1cm;
-
-
-}
 
 /* Set a background color */
 body {
-    background: linear-gradient(to bottom, rgb(40, 71, 33), rgb(125, 235, 125) );
+    background: linear-gradient(to bottom, rgb(235, 203, 64), rgb(66, 63, 24) );
     font-family: Helvetica, sans-serif;
   }
   
@@ -140,7 +179,7 @@ body {
     border-radius: 50%;
     z-index: 1;
   }
-  
+
   /* Place the container to the left */
   .left {
     left: 0;
@@ -163,6 +202,7 @@ body {
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
+    
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -187,15 +227,19 @@ body {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background: linear-gradient(to bottom, rgb(245, 225, 222), rgb(210, 214, 236) );
+    background: linear-gradient(to bottom, rgb(241, 235, 181), rgb(178, 182, 144) );
     position: relative;
-    border-radius: 6px;
     display: flex;
     justify-content: space-evenly;
+    border-radius: 6px;
   }
-  
+
+  .content:hover {
+    background: linear-gradient(to bottom, rgb(221, 207, 103), rgb(159, 160, 81) );
+  }
+
   /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 800px) {
   /* Place the timelime to the left */
     .timeline::after {
       left: 31px;
@@ -227,19 +271,54 @@ body {
     }
 
     .yearandname {
-      font-size: 2vw
+      font-size: 7vw
+    }
+
+    .year {
+      font-size: 8vw;
     }
 
     .brescia {
       height: 15vw;
     }
 
-    .posizione {
-      font-size: 2vw;
+    .position {
+      font-size: 3vw;
+    }
+
+    .monza1 {
+      height: 8vw;
+      margin-top: 15vw;
     }
 
     .monza1stretta {
       height: 8vw;
     }
-  
+    
+    .mini {
+      font-size: 100%;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      j
+    }
+
+    .nav {
+      font-size: 150%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly
+        }
+
+    .circuit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    }
+
+    
+    
   }

@@ -1,4 +1,3 @@
-
 .headeryear {
     font-size: 10vw;
     margin: 0px;
@@ -6,27 +5,160 @@
     width: auto;
 }
 
-.results {
+body {
+  background: linear-gradient(to bottom, rgb(245, 238, 206), rgb(159, 160, 78) );
+  font-family: Helvetica, sans-serif;
+}
+
+.supercontainer {
+  width: 70%;
+  margin: auto;
+  border: solid 3px black;
+  border-top: solid 1px;
+  background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(137, 138, 66) );
+}
+
+.gpnumbercontainer {
+  display: flex;
+}
+
+.gpnumber {
+  text-align: center;
+  font-size: 150%;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+  background-color: beige;
+  width: 100%;
+
+}
+
+.separator {
+  margin-top: 40px;
+  height: 6px;
+  background-color: black;
+}
+
+#backbtn {
+  height: 4vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#backbtn:hover {
+  background-color: rgb(25, 85, 13);
+}
+
+
+.flag {
+  height: 2vw;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.resultspresentation {
+  text-align: center;
+  font-size: 300%;
+}
+
+.topresult {
+  background-color: rgb(77, 71, 61);
+}
+
+.topresultext {
+  color: rgb(255, 255, 255);
+
+}
+
+#centeredname {
+  display: flex;
+  justify-content: center;
+}
+
+.resultstotal {
+  display: flex;
+}
+
+.resultsnumber {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  font-size: 2vw;
 }
 
-.position {
+.resultsname {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  font-size: 2vw;
+}
+
+.resultscar {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  border-left: solid 3px;
+  font-size: 2vw;
+
+}
+
+.resultstime {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  border-left: solid 3px;
+  font-size: 2vw;
+
+}
+
+.resultslap {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px;
+  margin-right: 20px;
+  font-size: 2vw;
+
+}
+
+.otherposition {
+  background-color: rgb(240, 232, 187);
+}
+
+/* Details */
+
+.lap {
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: space-evenly;
+  font-size: 150%;
+  text-align: center;
 }
 
-ul {
-  list-style: none;
-  }
-
-  .posizione {
-    border-radius: 0;
-    width: 100%;
-    border-bottom: solid 4px;
-  }
+.detailscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -51,11 +183,49 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 3vw;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(223, 187, 69);
     color: rgb(232, 233, 173);
+  }
+
+  @media screen and (max-width: 800px) {
+    .flag {
+      height: 2vw;
+    }
+
+    .resultsname {
+      font-size: 4vw;
+
+    }
+
+    .resultslap {
+      font-size: 4vw;
+
+    }
+
+    .resultsnumber {
+      font-size: 4vw;
+
+    }
+
+    .resultstime {
+      font-size: 4vw;
+    }
+
+    .resultscar {
+      font-size: 4vw;
+    }
+
+    .supercontainer {
+      width: 100%;
+      margin: auto;
+      border: solid 3px black;
+      border-top: solid 1px;
+      background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(137, 138, 66) );
+    }
+    
   }
