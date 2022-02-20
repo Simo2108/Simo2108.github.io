@@ -7,7 +7,6 @@
 
 body {
   background: linear-gradient(to bottom, rgb(245, 238, 206), rgb(159, 160, 78) );
-  font-family: Helvetica, sans-serif;
 }
 
 .supercontainer {
@@ -24,6 +23,7 @@ body {
 
 .gpnumber {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 150%;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
@@ -146,6 +146,12 @@ body {
 
 /* Details */
 
+.detailscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .lap {
   display: flex;
   flex-direction: column;
@@ -154,11 +160,11 @@ body {
   text-align: center;
 }
 
-.detailscontainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.brescia {
+  height: 20vw;
+  margin-top: 20px;
 }
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -219,6 +225,12 @@ body {
     .resultscar {
       font-size: 4vw;
     }
+
+    .detailscontainer {
+      display: flex;
+      flex-direction: column;
+    }
+    
 
     .supercontainer {
       width: 100%;

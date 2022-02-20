@@ -2,6 +2,14 @@
     box-sizing: border-box;
   }
 
+
+  body {
+    background: linear-gradient(to bottom, rgb(235, 203, 64), rgb(66, 63, 24) );
+    font-family: Helvetica, sans-serif;
+  }
+
+
+
 body{
     margin: 0%;
 }
@@ -30,6 +38,7 @@ header {
   font-size: 200%;
   margin: 0.5cm;
   padding: 1cm;
+  border-radius: 10px;
 }
 
 .presentation2 {
@@ -39,6 +48,8 @@ header {
   font-size: 200%;
   margin: 0.5cm;
   padding: 1cm;
+  border-radius: 10px;
+
 }
 
 .flag {
@@ -131,13 +142,6 @@ a {
   font-size: 3vw;
   border-radius: 50%;
 }
-
-
-/* Set a background color */
-body {
-    background: linear-gradient(to bottom, rgb(235, 203, 64), rgb(66, 63, 24) );
-    font-family: Helvetica, sans-serif;
-  }
   
   /* The actual timeline (the vertical ruler) */
   .timeline {
