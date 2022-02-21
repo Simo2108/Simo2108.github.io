@@ -8,6 +8,10 @@
     font-family: Helvetica, sans-serif;
   }
 
+  .workinprogress {
+    display: none;
+  }
+
 
 
 body{
