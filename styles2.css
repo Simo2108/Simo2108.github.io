@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, rgb(245, 238, 206), rgb(159, 160, 78) );
+  background: linear-gradient(to bottom, rgb(203, 211, 133), rgb(185, 185, 122) );
 }
 
 .supercontainer {
@@ -14,7 +14,7 @@ body {
   margin: auto;
   border: solid 3px black;
   border-top: solid 1px;
-  background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(137, 138, 66) );
+  background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(232, 233, 204) );
 }
 
 .gpnumbercontainer {
@@ -60,6 +60,10 @@ body {
 .resultspresentation {
   text-align: center;
   font-size: 300%;
+}
+
+.results {
+  text-align: center;
 }
 
 .topresult {
@@ -144,6 +148,16 @@ body {
   background-color: rgb(240, 232, 187);
 }
 
+.qualificationposition {
+  background-color: rgb(248, 255, 218);
+}
+
+.poleposition {
+  background-color: rgb(230, 217, 48);
+}
+
+
+
 /* Details */
 
 .detailscontainer {
@@ -165,6 +179,23 @@ body {
   margin-top: 20px;
 }
 
+.history {
+  font-size: 150%;
+  width: 95%;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.photos {
+  width: 60%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -237,7 +268,7 @@ body {
       margin: auto;
       border: solid 3px black;
       border-top: solid 1px;
-      background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(137, 138, 66) );
+      background: linear-gradient(to bottom, rgb(231, 223, 191), rgb(229, 231, 161) );
     }
     
   }
