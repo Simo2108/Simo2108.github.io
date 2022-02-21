@@ -18,16 +18,15 @@ header {
     text-align: center;
     border-bottom: 10px solid black;
     border-color: rgb(255, 255, 255);
-    background: linear-gradient(to right, rgb(30, 134, 9) 33%, white 33%, white 66%, rgb(255, 6, 6) 66%);
+    background: linear-gradient(to right, rgb(36, 182, 23), #ffffff, #ffffff, rgb(245, 8, 8)););
 }
 
 .title {
-    font-size: 400%;
+    font-size: 6vw;
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .subtitle {
-    font-size: 200%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -71,10 +70,10 @@ a {
   background-color: #ffffff;
   position: sticky;
   bottom: 0;
-  border-bottom: 10px solid black;
-  border-top: 10px solid black;
-  border-top-color: rgb(49, 219, 49);
-  border-bottom-color: red;
+  border-top: 10px solid rgb(36, 182, 23);
+  border-bottom: 10px solid rgb(245, 8, 8);
+  background: linear-gradient(to right, rgb(241, 217, 179), #ffffff, #ffffff, rgb(241, 217, 179));
+
 }
 
 
@@ -84,7 +83,7 @@ a {
 }
 
 .navdecade:hover {
-  color: beige;
+  color: rgb(82, 82, 55);
   back
 }
 
@@ -289,7 +288,8 @@ a {
     }
 
     .position {
-      font-size: 3vw;
+      font-size: 6vw;
+      margin: 5px;
     }
 
     .monza1 {

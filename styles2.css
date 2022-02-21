@@ -10,9 +10,9 @@ body {
 }
 
 .supercontainer {
-  width: 70%;
+  width: 65%;
   margin: auto;
-  border: solid 3px black;
+  border: solid 5px black;
   background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(232, 233, 204) );
 }
 
@@ -108,7 +108,7 @@ body {
 .resultscar {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  width: 20%;
   justify-content: center;
   align-items: center;
   border-top: solid 3px;
@@ -121,7 +121,7 @@ body {
 .resultstime {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  width: 25%;
   justify-content: center;
   align-items: center;
   border-top: solid 3px;
@@ -179,10 +179,12 @@ body {
 }
 
 .history {
-  font-size: 150%;
-  width: 95%;
+  font-size: 120%;
   margin: auto;
   font-family: 'Times New Roman', Times, serif;
+  width: 85%;
+  text-align: center;
+  margin: auto;
 }
 
 .photos {
@@ -200,8 +202,10 @@ body {
 .topnav {
     display: flex;
     align-items: center;
+    border: solid 3px black;
+
     justify-content: space-evenly;
-    background-color: rgb(202, 170, 28);
+    background-color: rgb(133, 126, 98);
     overflow: hidden;    
   }
   
@@ -213,11 +217,11 @@ body {
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #fffcd2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 2vw;
   }
   
   /* Change the color of links on hover */
@@ -266,6 +270,15 @@ body {
       border: solid 3px black;
       border-top: solid 1px;
       background: linear-gradient(to bottom, rgb(231, 223, 191), rgb(229, 231, 161) );
+    }
+
+    .topnav a {
+      float: left;
+      color: #fffcd2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 4vw;
     }
     
   }
