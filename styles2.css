@@ -1,5 +1,5 @@
 .headeryear {
-    font-size: 10vw;
+    font-size: 100px;
     margin: 0px;
     border: 0%;
     width: auto;
@@ -13,7 +13,6 @@ body {
   width: 70%;
   margin: auto;
   border: solid 3px black;
-  border-top: solid 1px;
   background: linear-gradient(to bottom, rgb(223, 197, 106), rgb(232, 233, 204) );
 }
 
@@ -203,9 +202,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(202, 170, 28);
-    overflow: hidden;
-    border-bottom: solid 10px rgb(255, 255, 255);
-    
+    overflow: hidden;    
   }
   
 .active {
@@ -220,7 +217,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 150%;
   }
   
   /* Change the color of links on hover */

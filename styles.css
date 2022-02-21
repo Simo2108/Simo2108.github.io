@@ -79,11 +79,13 @@ a {
 
 
 .navdecade {
+  font-size: 60%;
   margin: 0 10vw;
 }
 
 .navdecade:hover {
   color: beige;
+  back
 }
 
 .brescia {
